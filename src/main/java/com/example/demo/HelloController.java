@@ -11,7 +11,7 @@ public class HelloController {
  
   @RequestMapping("/hello")
   public String hello() {
-    StringBuilder message = new StringBuilder("Hello Google App Engine!");
+    StringBuilder message = new StringBuilder("Hello Google App Engine DEMOS!");
     try {
       InetAddress ip = InetAddress.getLocalHost();
       message.append(" From host: " + ip);
